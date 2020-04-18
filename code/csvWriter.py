@@ -11,7 +11,7 @@ for line in tweets_file:
         continue
 
 
-fields = ["created_at", "text", "lang", "coordinates"]
+fields = ["created_at", "text", "lang", "coordinates"] #This line determines what fields get written to the CSV
 file = open("../tweets/twitter_data.csv", "w")
 writer = csv.writer(file)
 writer.writerow(fields)
