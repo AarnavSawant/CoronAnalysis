@@ -7,10 +7,10 @@ import sys
 import pandas as pd
 import re
 
-consumer_key = 'HyDrJu4fLYL9Cda2IrhnpGM7B'
-consumer_secret = 'vGp6Pu6lOyxW40ggr38nRMlkvIROH6B066miq5kHswmQDpM4Cx'
-access_token = '1250582255203840000-t0wCxvjb2VOgcOhgRKsSGrqfHSFl5h'
-access_secret = 'ikAY4hIZKLfSVs6w6mUaTG7MjcpgloDnEEYVZziH4JcSO'
+consumer_key = ''
+consumer_secret = ''
+access_token = ''
+access_secret = ''
 
 class StdOut(tweepy.StreamListener):
 
