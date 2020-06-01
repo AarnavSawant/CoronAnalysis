@@ -25,11 +25,16 @@ for line in tweets_file:
 #     except:
 #         continue
 
+<<<<<<< HEAD
 
 
 fields = ["created_at", "text", "lang", "coordinates", "location"]
 file = open("../tweets/5-14-2020.csv", "w")
 texts = []
+=======
+fields = ["created_at", "text", "lang", "coordinates"] #This line determines what fields get written to the csv
+file = open("../tweets/twitter_data.csv", "w")
+>>>>>>> 64a02cc09c09a68f572a9627cb1b0d51b9b47ec3
 writer = csv.writer(file)
 writer.writerow(fields)
 for row in tweets_data:
